@@ -1,0 +1,18 @@
+.header {
+  // display: flex;
+  color: #fff;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    // line-height: 64px;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  &__add {
+    margin-left: auto;
+  }
+}

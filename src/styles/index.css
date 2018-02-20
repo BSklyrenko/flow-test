@@ -1,0 +1,34 @@
+.header {
+  color: #fff; }
+  .header__container {
+    display: flex;
+    align-items: center; }
+    .header__container p {
+      margin-bottom: 0; }
+  .header__add {
+    margin-left: auto; }
+
+.content {
+  padding-top: 10px;
+  min-height: calc(100vh - 133px); }
+
+.list__item {
+  margin-bottom: 3px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #FFF;
+  border-bottom: 1px solid #EEE; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear; }
+
+.container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto; }

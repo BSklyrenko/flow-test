@@ -1,0 +1,30 @@
+{
+  "name": "flow-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.1.4",
+    "node-sass-chokidar": "^0.0.3",
+    "ramda": "^0.25.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build && npm run build-css",
+    "eject": "react-scripts eject",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.6.3",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "flow-bin": "^0.64.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-app-rewired": "^1.4.0",
+    "react-test-renderer": "^16.2.0"
+  }
+}
